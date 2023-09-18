@@ -2,10 +2,10 @@
 $font-family-sans-serif: 'Open Sans', sans-serif;
 
 // Colors
-$primary-color: #c167ef;
-$secondary-color: #10bcee;
-$dark-color: #333;
-$light-color: #f4f4f4;
+$primary: #c167ef;
+$secondary: #10bcee;
+$dark: #333;
+$light: #f3f6f9;
 
 // Navbar
 $navbar-padding-y: 1rem;
@@ -27,5 +27,25 @@ $btn-padding-y: $button-padding-y;
 $btn-padding-y-sm: $button-padding-y;
 $btn-padding-y-lg: $button-padding-y;
 $navbar-toggler-border-radius: 5px;
+
+// Spacers
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 8,
+  8: $spacer * 12,
+) !default;
+
+// Line Height
+$line-height-base: 1.7;
+
+// Headings
+$headings-margin-bottom: $spacer * 1;
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';

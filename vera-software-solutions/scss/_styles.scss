@@ -9,7 +9,7 @@
 }
 
 .header .slide {
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -45,6 +45,16 @@
     min-height: 800px !important;
   }
 
+  .header .slide {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .header .text-container {
+    width: 100% !important;
+    font-size: 16px;
+  }
+
   .register h2 {
     text-align: center;
   }
@@ -56,5 +66,17 @@
   .summary {
     margin-top: 0 !important;
     width: 90% !important;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+  }
+
+  .footer .socials {
+    justify-content: center;
   }
 }

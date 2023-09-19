@@ -14,6 +14,13 @@
 .download {
   background: url("../img/download-background.jpg") no-repeat center/cover; }
 
+.map iframe {
+  top: 0;
+  left: 0;
+  height: 400px;
+  width: 100%;
+  border: none; }
+
 .social-icons .fa-brands:hover {
   color: #10bcee;
   transition: all 0.3s ease-in;

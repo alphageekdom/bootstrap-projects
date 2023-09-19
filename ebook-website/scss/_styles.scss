@@ -15,6 +15,10 @@
   max-width: 1040px;
 }
 
+.download {
+  background: url('../img/download-background.jpg') no-repeat center / cover;
+}
+
 @media (max-width: 1000px) {
   .hero .image-container {
     display: flex;

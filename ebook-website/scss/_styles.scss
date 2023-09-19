@@ -57,6 +57,12 @@ footer .nav .nav-item .nav-link:hover::after {
   }
 }
 
+@media (max-width: 960px) {
+  .navbar ul {
+    text-align: center;
+  }
+}
+
 @media (max-width: 600px) {
   footer .nav {
     display: flex;

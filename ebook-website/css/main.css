@@ -8,6 +8,9 @@
 .header {
   background: url("../img/header-background.jpg") no-repeat center/cover; }
 
+.modal .modal-dialog {
+  max-width: 1040px; }
+
 @media (max-width: 1000px) {
   .hero .image-container {
     display: flex;

@@ -19,6 +19,12 @@
   background: url('../img/download-background.jpg') no-repeat center / cover;
 }
 
+.social-icons .fa-brands:hover {
+  color: #10bcee;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+
 @media (max-width: 1000px) {
   .hero .image-container {
     display: flex;

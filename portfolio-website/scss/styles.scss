@@ -54,6 +54,14 @@
   z-index: 10;
 }
 
+.footer a {
+  text-decoration: none;
+}
+.footer .h-stack i:hover {
+  color: var(--secondary) !important;
+  transition: all 0.2s ease-in;
+}
+
 @media (max-width: 767px) {
   .header .social i {
     font-size: 30px;

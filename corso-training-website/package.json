@@ -1,7 +1,7 @@
 {
-  "name": "vera-software-solutions",
+  "name": "corso-training-solutions",
   "version": "1.0.0",
-  "description": "vera saas",
+  "description": "training saas",
   "main": "index.js",
   "scripts": {
     "sass": "node-sass -w scss/ -o css/ --recursive"

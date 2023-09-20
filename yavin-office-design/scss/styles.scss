@@ -58,6 +58,11 @@
   width: 600px;
 }
 
+// Footer
+.footer a .fa-brands:hover {
+  color: var(--bs-primary) !important;
+}
+
 // Media Queries
 @media (max-width: 992px) {
   .xl-text {

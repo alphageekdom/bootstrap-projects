@@ -3,6 +3,18 @@
   font-size: 75px;
 }
 
+// Navbar
+
+.navbar {
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-sticky {
+  background: #fff;
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 // Button
 .btn-outline-secondary {
   color: var(--bs-secondary);

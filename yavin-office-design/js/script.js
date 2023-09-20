@@ -1,14 +1,23 @@
 // Smooth Scroll
 const userScroll = () => {
   const navbar = document.querySelector('.navbar');
+  const toTopBtn = document.querySelector('#to-top');
 
   window.addEventListener('scroll', () => {
     if (window.scrollY > 50) {
       navbar.classList.add('navbar-sticky');
+      toTopBtn.classList.add('show');
     } else {
       navbar.classList.remove('navbar-sticky');
+      toTopBtn.classList.remove('show');
     }
   });
+};
+
+// Scroll to Top
+const scrollToTop = () => {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 };
 
 // Increment Stats
@@ -35,5 +44,7 @@ const incrementStats = () => {
   });
 };
 
+// Even Listeners
 document.addEventListener('DOMContentLoaded', userScroll);
 document.addEventListener('DOMContentLoaded', incrementStats);
+document.querySelector('#to-top').addEventListener('click', scrollToTop);

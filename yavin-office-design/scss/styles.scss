@@ -76,6 +76,16 @@
   .header .image-contaienr {
     margin-top: 30px;
   }
+
+  // Services
+  .services .col-md-4 {
+    border-bottom: 1px #ccc solid;
+    margin: 10px 0;
+  }
+
+  .services .right .col-md-4:last-child {
+    border: none;
+  }
 }
 @media (max-width: 576px) {
   // Details

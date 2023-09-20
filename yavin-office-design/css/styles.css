@@ -47,7 +47,12 @@
     right: -100px;
     width: 250px; }
   .header .image-contaienr {
-    margin-top: 30px; } }
+    margin-top: 30px; }
+  .services .col-md-4 {
+    border-bottom: 1px #ccc solid;
+    margin: 10px 0; }
+  .services .right .col-md-4:last-child {
+    border: none; } }
 
 @media (max-width: 576px) {
   .details h2 {

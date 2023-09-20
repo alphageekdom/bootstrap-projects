@@ -40,6 +40,13 @@
   opacity: 0.7;
 }
 
+// Details
+.details .decoration-star {
+  left: -200px;
+  width: 500px;
+}
+
+// Media Queries
 @media (max-width: 992px) {
   .xl-text {
     font-size: 50px;
@@ -71,4 +78,8 @@
   }
 }
 @media (max-width: 576px) {
+  // Details
+  .details h2 {
+    text-align: center;
+  }
 }

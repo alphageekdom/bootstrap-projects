@@ -35,6 +35,13 @@
   opacity: 1;
 }
 
+// Details 1
+.details .vertical-decoration {
+  top: 0;
+  left: 0;
+  width: 24px;
+}
+
 @media (max-width: 992px) {
   // XL Text Size
   .xl-text {
